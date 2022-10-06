@@ -1,0 +1,18 @@
+{
+  "user": [
+    {
+      "email": "test@test.com",
+      "login": "123123",
+      "name": "Bahodirjon",
+      "id": 1
+    }
+  ],
+  "feedbacks_posts": [
+    {
+      "posts": "Loyiha haqida fikr, taklif va shikoyatlarni yo'llash uchun, ro'yhatdan o'tish tavsiya etiladi",
+      "userId": "Bahodirjon",
+      "isTrue": true,
+      "id": 4
+    }
+  ]
+}

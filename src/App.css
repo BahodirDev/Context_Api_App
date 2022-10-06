@@ -36,3 +36,147 @@
     transform: rotate(360deg);
   }
 }
+/* main_div part */
+.main_div {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+/* detail_imds */
+
+.detail_imds {
+  display: "flex";
+  justify-content: "space-between";
+  margin: "20px 0px";
+}
+
+.detail_imds img{
+  width: 65%;
+  height: 300px;
+
+}
+/* d_img */
+#d_img{
+
+  width: 85%;
+  height: 500px;
+
+}
+
+/* responsive */
+@media (max-width: 320px) {
+  .main_div {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .detail_imds {
+    display: "grid";
+    grid-template-columns: 1fr;
+  }
+  .detail_imds img{
+    margin-top: 10px;
+    height: 150px;
+    width: 150px;
+  }
+  /* #d_img */
+  #d_img{
+    width: 95%;
+  height: 350px;
+  }
+  #no{
+    display: none;
+  }
+}
+@media (max-width: 376px) {
+  .main_div {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .detail_imds {
+    display: "grid";
+    grid-template-columns: 1fr;
+  }
+  .detail_imds img{
+    margin-top: 10px;
+    height: 150px;
+    width: 150px;
+  }
+  /* #d_img */
+  #d_img{
+    width: 95%;
+  height: 350px;
+  }
+  #no{
+    display: none;
+  }
+}
+@media (max-width: 426px) {
+  .main_div {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .detail_imds {
+    display: "grid";
+    grid-template-columns: 1fr;
+  }
+  .detail_imds img{
+    margin-top: 10px;
+    height: 150px;
+    width: 150px;
+  }
+  /* #d_img */
+  #d_img{
+    width: 95%;
+  height: 350px;
+  }
+  #no{
+    display: none;
+  }
+}
+
+
+
+/* left_bar part */
+.left_bar {
+  background: radial-gradient(circle at 18.7% 37.8%, rgb(248, 245, 245) 0%, rgb(210, 233, 243) 90%);
+}
+/* box_links */
+.box_links {
+  padding: 25px;
+}
+/* links */
+.links {
+  text-decoration: none;
+  text-align: center;
+}
+.links div {
+  width: 100%;
+  padding: 10px 0px;
+  border-radius: 12px;
+  border: 1px solid rgb(53, 19, 176);
+  margin: 10px 0px;
+}
+.links div:hover {
+  transform: scale(1.1);
+  transition: all 0.9s;
+  box-shadow: 5px 8px 12px rgba(0, 0, 0, 0.5);
+}
+
+/* pages */
+.pages {
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+
+/* admin */
